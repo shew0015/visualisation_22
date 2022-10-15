@@ -1,0 +1,73 @@
+body {
+    background-color: lightgray;
+    background-image: linear-gradient(gray);
+}
+
+.page {
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    page-break-after: always;
+}
+
+.pure-g {
+    margin-bottom: 10px;
+}
+
+p.p-left {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+p.p-right {
+    text-align: justify;
+    padding-left: 10px;
+}
+
+h4 {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h2.rainfall {
+    background-color: #0a4b78;
+}
+
+h2.windspeed {
+    background-color: #005c12;
+}
+
+h2.temp {
+    background-color: #996800;
+}
+
+.weather {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+}
